@@ -1,6 +1,7 @@
 package PracticesForProject;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -27,7 +28,7 @@ public class News18_Ads_Title_Ads_DimensionsTest {
 	    News18_Ads_Title_Ads_Dimensions = new News18_Ads_Title_Ads_Dimensions(driver);
 		driver.get("https://www.news18.com/");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		ChromeOptions Options = new ChromeOptions();
 		Options.addArguments("--disable-notifications");
 	}

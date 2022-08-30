@@ -30,7 +30,7 @@ import com.mysql.cj.jdbc.Driver;
 import com.mysql.cj.protocol.ResultsetRows;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import io.opentelemetry.exporter.logging.SystemOutLogExporter;
+
 
 public class News18_HomePage {
 

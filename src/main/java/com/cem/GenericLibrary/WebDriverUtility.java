@@ -42,7 +42,7 @@ public class WebDriverUtility
    */
   public void waitForPageLoad(WebDriver driver)
   {
-	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
   }
   /**
    * This method will wait for 10 second for an element to be clickable
@@ -51,7 +51,7 @@ public class WebDriverUtility
    */
   public void waitForElementToBeClickable(WebDriver driver,WebElement element)
   {
-	  WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+	  WebDriverWait wait=new WebDriverWait(driver, 10);
 	  wait.until(ExpectedConditions.elementToBeClickable(element));
   }
   /**
@@ -61,7 +61,7 @@ public class WebDriverUtility
    */
   public void waitForElementToBeVisible(WebDriver driver,WebElement element)
   {
-	  WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+	  WebDriverWait wait=new WebDriverWait(driver, 10);
 	  wait.until(ExpectedConditions.visibilityOf(element));		  
   }
   /**
