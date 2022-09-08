@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="News_18Test.News18_Gujarati_HomePageTest">
+      <class name="PracticesForProject.FindHowMuchTimeTakenToVisibilityOfWebElementInWebPage">
         <methods>
-          <include name="clickonsearchicon"/>
-          <include name="LaunchBrowser"/>
+          <include name="loginButtonLoadingTiming"/>
         </methods>
-      </class> <!-- News_18Test.News18_Gujarati_HomePageTest -->
+      </class> <!-- PracticesForProject.FindHowMuchTimeTakenToVisibilityOfWebElementInWebPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

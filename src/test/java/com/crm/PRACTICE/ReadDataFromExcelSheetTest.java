@@ -23,7 +23,7 @@ public class ReadDataFromExcelSheetTest
 	   
 	   //Step 3: get the sheet
 	   Sheet sh = wb.getSheet("Sheet1");
-	   
+	  
 	   //Step 4: get the row
 	   Row ro = sh.getRow(0);
 	   

@@ -54,7 +54,5 @@ public class Differentways_of_shadowdom_handles {
 		
 		WebElement ele = shadowroot5.findElement(By.cssSelector("div[id='details']>div"));
 		ele.click();
-	
 	}
-
 }
