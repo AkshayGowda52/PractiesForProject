@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PracticesForProject.FindHowMuchTimeTakenToVisibilityOfWebElementInWebPage">
+      <class name="PracticesForProject.ImageVerificationInIRCTC">
         <methods>
-          <include name="loginButtonLoadingTiming"/>
+          <include name="imageComparing"/>
         </methods>
-      </class> <!-- PracticesForProject.FindHowMuchTimeTakenToVisibilityOfWebElementInWebPage -->
+      </class> <!-- PracticesForProject.ImageVerificationInIRCTC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -20,7 +20,7 @@ public class Print_Text_Inside_The_Image {
 	@Test
 	public void printtextinsidetheimage()
 	{
-		Ocr ocr = new Ocr(); 
+		Ocr ocr = new Ocr();
 		ocr.startEngine("eng", Ocr.SPEED_FASTEST);
 															
 		String imgtext = ocr.recognize(new File[] {new File("C:\\Users\\Akshay\\OneDrive\\Desktop\\Photo\\l002-social.jpg")}, Ocr.RECOGNIZE_TYPE_TEXT, Ocr.OUTPUT_FORMAT_PLAINTEXT);
